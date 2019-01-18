@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   display: block;
@@ -11,7 +11,7 @@ export const ContainerMain = Container.extend`
   background: ${props => props.theme.backgroundColor};
   max-height: 600px;
   height: 100%;
-  overflow: scroll;
+  overflow: hidden;
   position: relative;
 
   &:focus {
